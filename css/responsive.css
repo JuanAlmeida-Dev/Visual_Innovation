@@ -1,0 +1,254 @@
+/*Carousel Home*/
+
+@media screen and (min-width: 1700px) {
+    #carousel .carousel-inner,
+    #carousel .carousel-item {
+        height: 85vh;
+    }
+}
+
+
+/*Carousel Home*/
+
+@media screen and (max-width:1200px) {
+    .carousel-title {
+        font-size: 70px;
+    }
+    .carousel-caption {
+        line-height: 70px;
+    }
+    #btnEfeito {
+        left: 67%;
+    }
+    #btnEfeito button {
+        width: 250px;
+        font-size: 17px;
+    }
+}
+
+@media screen and (max-width:1000px) {
+    .carousel-title {
+        font-size: 60px;
+    }
+    .carousel-caption {
+        line-height: 60px;
+    }
+    #btnEfeito {
+        top: 70%;
+        left: 66%;
+    }
+    #btnEfeito button {
+        width: 218px;
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width:900px) {
+    .carousel-title {
+        font-size: 50px;
+    }
+    .carousel-caption {
+        line-height: 50px;
+    }
+    #btnEfeito {
+        top: 70%;
+        left: 65%;
+    }
+    #btnEfeito button {
+        width: 200px;
+        font-size: 13px;
+    }
+}
+
+@media screen and (max-width:800px) {
+    .carousel-title {
+        font-size: 40px;
+    }
+    .carousel-caption {
+        line-height: 40px;
+    }
+    #btnEfeito {
+        top: 65%;
+        left: 63%;
+    }
+    #btnEfeito button {
+        width: 180px;
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width:700px) {
+    .carousel-title {
+        font-size: 30px;
+    }
+    .carousel-caption {
+        line-height: 30px;
+    }
+    #btnEfeito {
+        top: 65%;
+        left: 58%;
+    }
+    #btnEfeito button {
+        width: 180px;
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width:670px) {
+    .text-depoimento {
+        line-height: 35px;
+    }
+    .formCadastro form {
+        width: 400px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .formCadastro form {
+        width: 300px;
+    }
+    #btnEfeito {
+        display: none;
+    }
+    .carousel-caption {
+        line-height: 20px;
+    }
+    .carousel-title {
+        font-size: 20px;
+    }
+    .text-depoimento {
+        font-size: 15px;
+    }
+    .formLogin form {
+        width: 330px;
+    }
+    #containerDepoimentos {
+        padding: 1rem;
+    }
+    .offcanvas-end {
+        width: 250px;
+    }
+    #containerGaleria {
+        padding: 2rem;
+    }
+    #servico {
+        max-width: 300px;
+    }
+    #containerServico {
+        padding: 2rem;
+    }
+    #containerBemVindo {
+        padding-top: 0;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    #containerLogin {
+        min-height: 125vh;
+    }
+    .formLogin form {
+        width: 300px;
+        transform: translateY(10%);
+    }
+    .imgLogoLogin {
+        transform: translate(-50%, -150%);
+    }
+    #createConta {
+        transform: translatey(50%);
+    }
+    #containerDepoimentos {
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .offcanvas-end {
+        width: 230px;
+    }
+    .imgIndicators li {
+        margin-left: 4px;
+    }
+    #Servico {
+        max-width: 270px;
+    }
+    .title-cadastro {
+        margin-top: 2rem;
+    }
+}
+
+@media screen and (max-width:767px) {
+    .valid-senha {
+        margin-top: 1rem;
+    }
+    #navbarDash {
+        height: 15vh;
+    }
+    .nav {
+        display: flex;
+        padding: 1rem;
+        margin: 0;
+    }
+    .nav-item {
+        margin-left: 15px;
+        margin-right: 10px;
+    }
+    #imgLogoHome {
+        width: 110px;
+    }
+}
+
+@media screen and (max-width:768px) {
+    #formServico {
+        transform: translate(-50%, -20%);
+    }
+    .imgLogoNewServico {
+        transform: translate(-50%, -130%);
+    }
+}
+
+@media screen and (max-width:540px) {
+    #formServico {
+        transform: translate(-50%, -20%);
+    }
+    .imgLogoNewServico {
+        transform: translate(-50%, -130%);
+    }
+}
+
+@media screen and (max-width:500px) {
+    #formServico form {
+        width: 300px;
+    }
+    #formServico {
+        transform: translate(-50%, -10%);
+    }
+    .imgLogoNewServico {
+        transform: translate(-50%, -100%);
+    }
+}
+
+@media screen and (max-width:320px) {
+    #formServico form {
+        width: 300px;
+    }
+    .imgLogoNewServico {
+        transform: translate(-50%, -100%);
+    }
+    .nav-item {
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+}
+
+@media screen and (max-width:990px) {
+    #cardNext,
+    #cardTotal,
+    #cardCheck {
+        margin: auto;
+    }
+    #cardTotal,
+    #cardCheck {
+        margin-top: 2rem;
+    }
+    .info-rodape {
+        margin: 2rem 0rem;
+    }
+}
